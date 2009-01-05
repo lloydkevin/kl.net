@@ -6,7 +6,7 @@
 <?php endwhile; else: ?>
  <h2>No Results</h2>
  <p>Please feel free try again!<p/>
- <p><?php get_searchform(); ?></p>
+ <p><?php get_search_form(); ?></p>
 <?php endif; ?>
 
 <div id="postnavigation">

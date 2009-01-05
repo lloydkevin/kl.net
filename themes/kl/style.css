@@ -303,8 +303,8 @@ left: 0;
 background: url('images/logo.jpg') no-repeat;
 position: absolute;
 }
-#header #logo span:hover{
-	cursor: pointer;
+#header #logo span:hover {
+cursor: pointer;
 }
 
 .menu {
@@ -315,8 +315,7 @@ width: 1060px;
 }
 
 .menu ul {
-padding: 0px 170px;
-margin-top: 142px;
+margin: 142px 0 0 170px;
 float: left;
 }
 
@@ -355,16 +354,16 @@ padding: 35px 170px;
 position: relative;
 }
 
-#content .spacer{
-	margin-top:-130px;
+#content .spacer {
+margin-top: -130px;
 }
 /* featured */
 #page #feature {
 width: 720px;
 height: 242px;
 background: url('images/featured_bg.jpg') no-repeat;
-position:relative;
-margin:20px 0 0 0 ;
+position: relative;
+margin: 20px 0 35px 0;
 }
 
 #page #feature #tag {
@@ -393,4 +392,10 @@ color: #2d3f02;
 /* Content */
 #content p {
 font-size: 1.2em;
+}
+
+
+/* Form */
+span.wpcf7-list-item {
+display: block;
 }

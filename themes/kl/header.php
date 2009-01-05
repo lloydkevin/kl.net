@@ -15,7 +15,7 @@
 	<div id="header">
 		<div class="container">
 			<h1 id="logo">
-				<a href=""<?php echo get_option('home'); ?>/""><span></span><?php bloginfo('name'); ?> - <?php bloginfo('description'); ?></a>
+				<a href="<?php echo get_option('home'); ?>/" title="<?php bloginfo('name'); ?> - <?php bloginfo('description'); ?>"><span></span><?php bloginfo('name'); ?> - <?php bloginfo('description'); ?></a>
 			</h1>
 			<?php wp_page_menu('show_home=1&sort_column=menu_order'); ?>
 		</div> <!-- container -->

@@ -1,27 +1,18 @@
-
-
-
-
-
-		</div> <!-- content -->
-	</div> <!-- page -->
-	<img src="<?php bloginfo('template_directory'); ?>/images/bottom_shadow.jpg" width="1060" height="45" alt="Bottom Shadow" />
-</div>
-<div id="footer">
-	<p>
-	 <a href="<?php bloginfo('rss2_url'); ?>">Entries (RSS)</a> and <a href="<?php bloginfo('comments_rss2_url'); ?>">Comments (RSS)</a>
-	</p>
-	<p>
-	 <?php bloginfo('name'); ?> is proudly powered by <a href="http://wordpress.org/">WordPress.org</a> <!-- It is recommended that you leave this link. Links such as these are Wordpress' main form of advertising. -->
-	</p>
-	<p>
-	 Theme derived from <a href="http://brianpurkiss.com/"><strong>brian</strong>purkiss'</a> <a href="http://plainbeta.com/whiteboard/">whiteboard</a> <!-- You may remove these links. Though, I would appreciate it if you left them or gave me a link somewhere... -->
-	</p>
-	
-<?php wp_footer(); ?>
-</div>
-
-
-
-</body>
+				</div> <!-- content -->
+			</div> <!-- page -->
+			<img src="<?php bloginfo('template_directory'); ?>/images/bottom_shadow.jpg" width="1060" height="45" alt="Bottom Shadow" />
+		</div> <!-- wrap -->
+		<div id="footer">
+			<?php wp_footer(); ?>
+		</div>
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-100181-12");
+		pageTracker._trackPageview();
+		} catch(err) {}</script>
+	</body>
 </html>
