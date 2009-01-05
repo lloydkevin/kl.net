@@ -254,12 +254,12 @@ padding-bottom: 0;
 a:link, a:visited {
 text-decoration: none;
 outline: none;
-color: #a5c856;
+color: #364e01;
 }
 
-#content a:hover {
+#content a:hover, #content a:focus {
 border-bottom: 1px dotted #999;
-color: #cdea8a;
+color: #364e01;
 }
 
 /* layout */
@@ -339,6 +339,10 @@ color: #fff;
 }
 .menu ul li.current_page_item, .current_page_parent {
 background: #fff;
+-moz-border-radius-topleft: 5px;
+-webkit-border-top-left-radius: 5px;
+-moz-border-radius-topright: 5px;
+-webkit-border-top-right-radius: 5px;
 }
 
 .menu ul li.current a {
@@ -364,6 +368,8 @@ height: 242px;
 background: url('images/featured_bg.jpg') no-repeat;
 position: relative;
 margin: 20px 0 35px 0;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
 }
 
 #page #feature #tag {
@@ -389,11 +395,14 @@ line-height: 2em;
 color: #2d3f02;
 }
 
+#feature ul li a:hover, #feature ul li a:focus {
+border-bottom: 1px dotted #999;
+}
+
 /* Content */
 #content p {
 font-size: 1.2em;
 }
-
 
 /* Form */
 span.wpcf7-list-item {
