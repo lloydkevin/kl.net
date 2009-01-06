@@ -1,6 +1,6 @@
 				</div> <!-- content -->
 			</div> <!-- page -->
-			<img src="<?php bloginfo('template_directory'); ?>/images/bottom_shadow.jpg" width="1060" height="45" alt="Bottom Shadow" />
+			<img src="<?php bloginfo('template_directory'); ?>/images/bottom_shadow.jpg" width="960" height="45" alt="Bottom Shadow" />
 		</div> <!-- wrap -->
 		<div id="footer">
 			<?php wp_footer(); ?>

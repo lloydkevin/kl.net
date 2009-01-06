@@ -13,8 +13,8 @@ Though I wouldn't mind a link somewhere... *hint hint*
 http://stylizedweb.com/2008/02/14/10-best-css-hacks/         */
 
 /*
-Width: 						1060px;
-padding left and right:		170px
+Width: 						960px;
+padding left and right:		120px
 Green Nav link:				#cdea8a - light green
 Dark nav link:				#333	- dark 
 Current nav link:			#fff
@@ -265,7 +265,7 @@ color: #364e01;
 /* layout */
 .container {
 height: auto;
-width: 1060px;
+width: 960px;
 text-align: center;
 margin: 0 auto;
 position: relative;
@@ -288,7 +288,7 @@ height: 314px;
 height: 179px;
 width: 640px;
 position: absolute;
-left: 164px;
+left: 114px;
 }
 #header #logo a {
 display: block;
@@ -309,11 +309,11 @@ cursor: pointer;
 text-align: left;
 background: url('images/top_shadow.jpg') no-repeat top center;
 height: 314px;
-width: 1060px;
+width: 960px;
 }
 
 .menu ul {
-margin: 142px 0 0 170px;
+margin: 142px 0 0 120px;
 float: left;
 }
 
@@ -352,7 +352,7 @@ background: #fff url('images/page_bg.jpg') repeat-y;
 text-align: left;
 }
 #content {
-padding: 35px 170px;
+padding: 35px 120px;
 position: relative;
 }
 
