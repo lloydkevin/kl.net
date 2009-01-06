@@ -291,8 +291,6 @@ position: absolute;
 left: 164px;
 }
 #header #logo a {
-	/*text-indent:-99999px;*/
-	border: 1px solid #999;
 display: block;
 }
 #header #logo span {
