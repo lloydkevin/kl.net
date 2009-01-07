@@ -369,8 +369,8 @@ height: 242px;
 background: url('images/featured_bg.jpg') no-repeat;
 position: relative;
 margin: 0px 0 35px 0;
--moz-border-radius: 15px;
--webkit-border-radius: 15px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
 }
 
 #page #feature #tag {
