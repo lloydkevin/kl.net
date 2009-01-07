@@ -25,7 +25,6 @@
 	<div id="wrap" class="container">
 		<div id="page">
 			<div id="content">
-				<div class="spacer"></div>	
 <!-- 
  <h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
  <p><?php bloginfo('description'); ?></p>

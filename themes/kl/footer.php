@@ -1,7 +1,9 @@
 				</div> <!-- content -->
 			</div> <!-- page -->
-			<img src="<?php bloginfo('template_directory'); ?>/images/bottom_shadow.jpg" width="960" height="45" alt="Bottom Shadow" />
 		</div> <!-- wrap -->
+		<div class="container">
+			<img src="<?php bloginfo('template_directory'); ?>/images/bottom_shadow.jpg" width="960" height="45" alt="Bottom Shadow" />
+		</div>
 		<div id="footer">
 			<?php wp_footer(); ?>
 		</div>
