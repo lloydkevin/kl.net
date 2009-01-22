@@ -273,7 +273,7 @@ position: relative;
 
 
 body {
-background: #f9f5ea url('images/top_bg.jpg') repeat-x;
+background: #f9f5ea url('images/top_bg.jpg?v1') repeat-x;
 position: relative;
 }
 	
@@ -298,7 +298,7 @@ width: 100%;
 height: 100%;
 top: 0;
 left: 0;
-background: url('images/logo.jpg') no-repeat;
+background: url('images/logo.jpg?v1') no-repeat;
 position: absolute;
 }
 #header #logo span:hover {
@@ -307,7 +307,7 @@ cursor: pointer;
 
 .menu {
 text-align: left;
-background: url('images/top_shadow.jpg') no-repeat top center;
+background: url('images/top_shadow.jpg?v1') no-repeat top center;
 height: 182px;
 width: 960px;
 }
@@ -348,11 +348,11 @@ color: #333;
 }
 
 #wrap {
-background: url('images/page_bg.jpg') repeat-y;
+background: url('images/page_bg.jpg?v1') repeat-y;
 }
 
 #page {
-background: url('images/top_content.jpg') no-repeat;
+background: url('images/top_content.jpg?v1') no-repeat;
 text-align: left;
 }
 #content {
@@ -366,7 +366,7 @@ position: relative;
 #page #feature {
 width: 720px;
 height: 242px;
-background: url('images/featured_bg.jpg') no-repeat;
+background: url('images/featured_bg.jpg?v1') no-repeat;
 position: relative;
 margin: 0px 0 35px 0;
 -moz-border-radius: 10px;
