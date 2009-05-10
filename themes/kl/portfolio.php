@@ -12,30 +12,46 @@ Template Name: Portfolio
 <?php endif; ?>
 
 
-<h3>Recent Articles</h3>
-<ul>
+<!-- Portfolio Items -->
 <?php
 $temp = $wp_query;
 $wp_query= null;
 $wp_query = new WP_Query();
-$wp_query->query('showposts=1'.'&paged='.$paged.'&cat=3');
+$wp_query->query('showposts=5'.'&paged='.$paged.'&cat=3');
 ?>
 <?php while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
-	<li><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></li>
+<?php
+	$img = get_post_meta($post->ID, 'img', true);
+	$thumb = get_post_meta($post->ID, 'thumb', true);
+	$link = get_post_meta($post->ID, 'link', true);
+	$title = the_title('','',false);
+	
+	if (empty($link)) {
+		$heading = '<h4>'. $title .'</h4>';
+	} else	{
+		$heading = '<h4><a href="'. $link .'" target="_blank" title="'. $title .'">'. $title .'</a></h4>';
+	}
+	
+	$image = '<a href="'. $img .'"><img src="'. $thumb .'" alt="'. $title .'" title="'. $title .'" /></a>';
+?>
+	<div class="portfolio-item">
+		<?= $heading ?>
+		<?= $image ?>
+		<div class="portfolio-content">
+			<?php the_content(); ?>
+		</div>
+	</div>
+	
 <?php endwhile; ?>
-</ul>
+
+<!-- Portfolio Items -->
+
+<!-- Navigation -->
 <div class="navigation">
   <div class="alignleft"><?php previous_posts_link('&laquo; Previous') ?></div>
   <div class="alignright"><?php next_posts_link('More &raquo;') ?></div>
 </div>
+<!-- End Navigation -->
 <?php $wp_query = null; $wp_query = $temp;?>
 
-
-
-
-
-
-
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
