@@ -17,7 +17,7 @@ Template Name: Portfolio
 $temp = $wp_query;
 $wp_query= null;
 $wp_query = new WP_Query();
-$wp_query->query('showposts=5'.'&paged='.$paged.'&cat=3');
+$wp_query->query('showposts=10'.'&paged='.$paged.'&cat=3');
 ?>
 <?php while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 <?php
