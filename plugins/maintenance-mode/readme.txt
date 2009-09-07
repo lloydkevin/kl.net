@@ -2,9 +2,9 @@
 Contributors: Michael_
 Donate link: http://sw-guide.de/donation/
 Tags: maintenance, mode, admin, administration, unavailable
-Requires at least: 2.0.9
-Tested up to: 2.3
-Stable tag: 3.2
+Requires at least: 2.3
+Tested up to: 2.7.1
+Stable tag: 4.3
 
 Adds a splash page to your blog that lets visitors know your blog is down for maintenance.  
 
