@@ -1,6 +1,12 @@
 <?php
  if ( function_exists('register_sidebar') )
  	register_sidebar();
+	
+if( !is_admin()){
+	wp_deregister_script('jquery'); 
+	wp_enqueue_script( 'jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js', array(), '1.3.2', true );
+}
+
 
 function featured() {
 	?>
